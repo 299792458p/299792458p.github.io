@@ -134,6 +134,11 @@
     font-size: 1.3rem;
 }
 
+.contact-name.thai {
+    margin-bottom: 1rem;
+    letter-spacing: .5px;
+}
+
 .contact-nick {
     font-size: 0.8rem;
     letter-spacing: 1px;
