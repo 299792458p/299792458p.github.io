@@ -204,6 +204,20 @@
     color: #0a5275;
 }
 
+.info-box .title.activities {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.link-to-proposal {
+    font-size: .9rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: indianred;
+    margin-right: -1rem;
+}
+
 /* .info-box .title::before {
     content: "";
     position: absolute;
