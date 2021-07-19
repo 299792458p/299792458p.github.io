@@ -204,11 +204,11 @@
     color: #0a5275;
 }
 
-.info-box .title.activities {
+/* .info-box .title.activities {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
+} */
 
 .link-to-proposal {
     font-size: .9rem;
@@ -545,13 +545,19 @@
     padding-left: 0.5rem;
 }
 
+.deepspace-links {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0.5rem;
+}
+
 .info.deepspace {
     position: relative;
     background-image: url(../images/deepspace.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 111%;
-    height: 22rem;
+    background-size: 108%;
+    background-position: 0% 200%;
+    height: 20rem;
     width: 29rem;
     margin-left: -2rem;
     color: white;
@@ -580,8 +586,8 @@
     margin: -30px;
     background-image: url(../images/deepspace.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 32% 16%;
+    background-size: 95%;
+    background-position: 47% 10%;
     margin-left: -1rem;
 }
 
