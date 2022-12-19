@@ -482,6 +482,10 @@
     max-width: 90%;
 }
 
+.bar-react::after {
+    max-width: 50%;
+}
+
 .bar-ng::after {
     max-width: 50%;
 }
