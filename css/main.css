@@ -199,7 +199,7 @@
     position: relative;
     padding-bottom: 0.5rem;
     font-size: 1.3rem;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
     /* border-bottom: 1px solid #c9d1d6; */
     color: #0a5275;
 }
