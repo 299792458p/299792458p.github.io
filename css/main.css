@@ -473,12 +473,12 @@
     max-width: 60%;
 }
 
-.bar-react::after {
+.bar-vue::after {
     max-width: 90%;
 }
 
 .bar-ng::after {
-    max-width: 90%;
+    max-width: 50%;
 }
 
 .bar-css::after {
@@ -561,6 +561,7 @@
     width: 29rem;
     margin-left: -2rem;
     color: white;
+    overflow: hidden;
 }
 
 .deepspace .group {
