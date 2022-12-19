@@ -107,9 +107,10 @@
 } */
 
 .img-profile {
-    width: 25rem;
-    height: 22rem;
-    background-image: url(../images/profile.png);
+    width: 100%;
+    /* height: 22rem; */
+    aspect-ratio: 1/1;
+    background-image: url(../images/profile.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 40%;
@@ -175,6 +176,10 @@
 .contact-info.address {
     margin-left: 0.8rem;
     margin-top: 0.2rem;
+}
+
+.info-box-wrapper {
+    /* height: calc(100vh - 40vw); */
 }
 
 .info-box {
@@ -557,15 +562,16 @@
     background-repeat: no-repeat;
     background-size: 108%;
     background-position: 0% 200%;
-    height: 20rem;
-    width: 29rem;
-    margin-left: -2rem;
+    /* height: 20rem; */
+    width: calc(100% - 1rem);
+    aspect-ratio: 3/2;
+    /* margin-left: -2rem; */
     color: white;
     overflow: hidden;
 }
 
 .deepspace .group {
-    width: 30.4rem;
+    width: calc(100% + 2rem);
     height: 4rem;
     left: -1rem;
     padding-left: 1rem;
